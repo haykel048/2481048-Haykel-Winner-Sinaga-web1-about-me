@@ -1,0 +1,223 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Biodata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Biodata</h1>
+        <p>Welcome to my personal student profile page.</p>
+    </header>
+
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#academic">Academic</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+    <main class="content-grid">
+
+        <!-- PROFILE -->
+        <section id="profile" class="profile">
+
+            <span class="badge">STUDENT</span>
+
+            <img
+                class="profile-photo"
+                src="profil.jpg"
+                alt="Photo of Haykel Winner Sinaga"
+            >
+
+            <div class="profile-info">
+
+                <h2>Haykel Winner Sinaga</h2>
+
+                <p>
+                    <strong>NIM :</strong> 2481048
+                </p>
+
+                <p>
+                    <strong>Prodi :</strong> Teknologi Informasi
+                </p>
+
+                <h2>Student Profile</h2>
+
+                <p>
+                    Hola semua, aku Haykel Winner Sinaga, mahasiswa UNAI tahun ajaran 2025.
+                    Saya berada di Fakultas Teknologi Informasi dan mengambil Program Studi Teknik Informatika.
+                </p>
+
+                <p>
+                    Halo semua, aku adalah seorang mahasiswa yang sedang berjuang menyelesaikan
+                    perkuliahan. Aku memiliki beberapa hobi dan senang mempelajari hal-hal baru,
+                    terutama yang berhubungan dengan teknologi. Aku juga mudah beradaptasi dengan
+                    lingkungan sekitar, senang bekerja sama, dan berusaha menghargai waktu.
+                    Senang berkenalan dengan Anda.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Personal Information</h3>
+
+                <p>
+                    <strong>Name:</strong> Haykel Winner Sinaga<br>
+                    <strong>Student ID:</strong> 2481048<br>
+                    <strong>Study Program:</strong> Teknologi Informasi<br>
+                    <strong>Email:</strong>
+                    <a href="mailto:2481048@unai.edu">2481048@unai.edu</a>
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- HOBBIES -->
+        <section id="hobbies">
+
+            <h2>My Hobbies</h2>
+
+            <h3>My Favorite Hobbies</h3>
+
+            <ol>
+                <li>Playing Guitar</li>
+                <li>Playing Volleyball</li>
+                <li>batmin</li>
+            </ol>
+
+            <h3>Other Activities I Enjoy</h3>
+
+            <ul>
+                <li>Playing Football</li>
+                <li>Jogging</li>
+                <li>Photography</li>
+            </ul>
+
+        </section>
+
+        <!-- ACADEMIC -->
+        <section id="academic">
+
+            <h2>Academic Record</h2>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Semester</th>
+                            <th>Academic Year</th>
+                            <th>GPA</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Odd Semester</td>
+                            <td>2025/2026</td>
+                            <td>3.23</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Even Semester</td>
+                            <td>2025/2026</td>
+                            <td>3.24</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <div class="form-group">
+
+                    <label for="fullName">Full Name:</label>
+
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        minlength="3"
+                        maxlength="50"
+                        required
+                    >
+
+                </div>
+
+                <br>
+
+                <div class="form-group">
+
+                    <label for="email">Email Address:</label><br>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                    >
+
+                    <br><br>
+
+                    <label for="category">Message Category:</label><br>
+
+                    <select id="category" name="category">
+                        <option value="">-- Select Category --</option>
+                        <option value="academic">Academic</option>
+                        <option value="project">Project Collaboration</option>
+                        <option value="general">General</option>
+                    </select>
+
+                </div>
+
+                <br>
+
+                <div class="form-group">
+
+                    <label for="message">Message:</label><br>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                    ></textarea>
+
+                </div>
+
+                <br>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Haykel Winner Sinaga | Web Programming I</p>
+
+        <p>
+           
